@@ -1,0 +1,48 @@
+{
+  "patient_id": "P0001",
+  "age": 72,
+  "gender": "female",
+  "living_situation": "alone",
+  "fall_history": 1,
+  "comorbidity_count": 2,
+  "sleep_hours": 6.5,
+  "medication_adherence": 0.8,
+  "activity_level": 3000,
+  "social_interactions": 4,
+  "cognitive_score": 7.0,
+  "mobility_score": 6.5,
+  "mental_health_score": 6.8,
+  "medications": [],
+  "symptoms": [
+    "mild fatigue"
+  ],
+  "mood": 4,
+  "pain_level": 2,
+  "logs": [
+    {
+      "medication_taken": true,
+      "medication_name": "Metformin",
+      "mood": 4,
+      "pain_level": 2,
+      "activity_done": "walked 20 minutes",
+      "symptoms": [
+        "mild fatigue"
+      ],
+      "timestamp": "2026-04-01T13:55:50.272291"
+    }
+  ],
+  "last_report": {
+    "hba1c": 6.2,
+    "creatinine": 0.9,
+    "blood_pressure_systolic": 128,
+    "blood_pressure_diastolic": 82,
+    "cholesterol": 178.5,
+    "hemoglobin": 13.5,
+    "blood_glucose": 95.0,
+    "flags": [
+      "HbA1c borderline elevated",
+      "BP slightly high"
+    ],
+    "summary": "Patient shows borderline HbA1c and mildly elevated blood pressure requiring monitoring."
+  }
+}
