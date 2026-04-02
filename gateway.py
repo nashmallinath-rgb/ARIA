@@ -111,7 +111,7 @@ async def get_patient_profile(patient_id: str):
 # ─────────────────────────────────────────────
 
 # Path to the build/dist folder
-frontend_path = os.path.join(os.getcwd(), "frontend", "dist")
+frontend_path = os.path.join(os.getcwd(), "frontend", "out")
 
 if os.path.exists(frontend_path):
     app.mount("/", StaticFiles(directory=frontend_path, html=True), name="static")
